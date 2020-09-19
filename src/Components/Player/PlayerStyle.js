@@ -1,5 +1,5 @@
 import {StyleSheet} from "react-native"
-import {windowHeight, windowWidth} from "../NativeElements/Dimensions/WindowDimensions"
+import {windowHeight, windowWidth} from "../../NativeElements/Dimensions/WindowDimensions"
 const style = StyleSheet.create({
     image : {
         width: 320,

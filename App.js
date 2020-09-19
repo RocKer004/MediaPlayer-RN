@@ -4,14 +4,25 @@ import {
   View,
   Text, Button
 } from 'react-native';
-import Player from './src/Player/Player';
+import PlayerComponent from './src/Components/Player/PlayerComponent';
 
 
 const App = () => {
   return (
-   <Player/>
+    <View style={styles.container}>
+ <PlayerComponent/>
+    </View>
+  
   );
 };
 
+const styles = StyleSheet.create({
+  container : {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+})
 
 export default App;
